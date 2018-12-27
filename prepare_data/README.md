@@ -22,10 +22,10 @@ sh step3_image_feature_extraction.sh
 ```
 It may takes 20 minutes to finish the feature extraction process.
 
-### Generate the NOC COCO dataset
+### Generate the NOC COCO Dataset
 ```shell
 sh step4_transfer_coco_to_noc.sh
 ```
-We change the original MSCOCO dataset to fit the novel object captioning setting.
+We transfer the original MSCOCO dataset to fit the novel object captioning setting.
 
 All the preprocessed results can be found in `mscoco`. 
