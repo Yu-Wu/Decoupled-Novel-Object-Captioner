@@ -9,7 +9,7 @@ TensorFlow code for our paper [[Link]](https://arxiv.org/pdf/1804.03803.pdf).
 - tqdm
 
 ### Prepare data
-Please follow the instructions in [prepare_data](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner/tree/master/prepare_data/README.md).
+Please follow the instructions in [prepare_data](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner/tree/master/prepare_data/).
 
 ## Train
 ```shell
