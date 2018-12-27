@@ -1,1 +1,2 @@
-mscoco
+mscoco/*
+!mscoco/.gitkeep
