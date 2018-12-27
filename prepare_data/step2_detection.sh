@@ -1,4 +1,4 @@
-cd detection
+cd utils/detection
 cp *.py *.pkl models/research
 
 cd models/research
