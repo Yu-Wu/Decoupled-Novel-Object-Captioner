@@ -18,7 +18,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 import sys, os
-sys.path.append("./detection/models/research/slim/")
+sys.path.append("./utils/detection/models/research/slim/")
 from nets import nets_factory
 from preprocessing import preprocessing_factory
 slim = tf.contrib.slim

@@ -26,11 +26,11 @@ import re, tqdm, time
 
 
 # Note the current path is $PWD/prepare_data/detection/models/research
-IMAGE_DIR = '../../../mscoco/'
-SAVE_DIR = os.path.join(IMAGE_DIR, "extracted_object_memory_17_11_08")
+IMAGE_DIR = '../../../../mscoco/'
+SAVE_DIR = os.path.join(IMAGE_DIR, "extracted_object_memory")
 
-MODEL_NAME = 'faster_rcnn_inception_resnet_v2_atrous_coco_2017_11_08'
-# MODEL_NAME = 'faster_rcnn_inception_resnet_v2_atrous_coco_2018_01_28'
+#MODEL_NAME = 'faster_rcnn_inception_resnet_v2_atrous_coco_2017_11_08'
+MODEL_NAME = 'faster_rcnn_inception_resnet_v2_atrous_coco_2018_01_28'
 
 
 PATH_TO_CKPT = 'object_detection/' + MODEL_NAME + "/"
