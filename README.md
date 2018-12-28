@@ -6,7 +6,7 @@ TensorFlow code for our paper [[Link]](https://arxiv.org/pdf/1804.03803.pdf).
 ### Dependencies
 - Python 3.6
 - Tensorflow (version >= 1.4.1)
-- tqdm
+- nltk, tqdm
 
 ### Prepare data
 Please follow the instructions in [prepare_data](https://github.com/Yu-Wu/Decoupled-Novel-Object-Captioner/tree/master/prepare_data/).
