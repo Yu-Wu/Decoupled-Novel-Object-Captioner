@@ -70,8 +70,9 @@ class VisualTextData(DataLoader):
       dec_target_weight = np.ones(bs, dtype=np.float32)
       query_target_weight = np.zeros(bs, dtype=np.float32)
       for batch_id in range(bs):
-      
-        _dec_input = captions[batch_id][seq_id] if FLAGS.baseline else min(captions[batch_id][seq_id], self._lstm_vocab_num)
+    
+	# To transfer detection words to <PL>  
+        _dec_input = min(captions[batch_id][seq_id], self._lstm_vocab_num)
         dec_input.append(_dec_input)
 
         if seq_id < self._dec_seq_len - 1:
