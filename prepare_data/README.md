@@ -9,6 +9,8 @@ sh step1_download_coco.sh
 The script will download the image data from the MSCOCO official site and extract it to `mscoco`.
 
 ### Generating Detection Results
+You can download our pre-extracted object detection feature from [here](https://drive.google.com/open?id=1zit11UTSTQl00ynsyhSlF0NtggHSQmwI). Or you can extract the object feature by yourself using the following instructions:
+
 ```shell
 sh step2_detection.sh
 ```
