@@ -21,6 +21,8 @@ It takes about one hour to train the model with a Nvidia V100 GPU.
 ```shell
 python run.py --stage test
 ```
+Our trained checkpoint can be found [here](https://drive.google.com/file/d/1NNUz7FjLDqIzQt0MCb9wnROmlmUzbPRW/view).
+
 
 ## Reference
 
