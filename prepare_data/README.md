@@ -30,4 +30,7 @@ sh step4_transfer_coco_to_noc.sh
 ```
 We transfer the original MSCOCO dataset to fit the novel object captioning setting.
 
+
+We also provide our generated data (the training and testing splits for the held-out MSCOCO dataset), which can be downloaded [here](https://drive.google.com/file/d/1D9ZXff6Dns14FNpJkeWzIiPSZNYPiA7z/view?usp=sharing).
+
 All the preprocessed results can be found in `mscoco`. 
